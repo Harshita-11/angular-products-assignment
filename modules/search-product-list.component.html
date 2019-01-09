@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="header">
+        <h3>{{title}}</h3>
+    </div>
+      <!-- Side navigation -->
+      <div class="row">
+        <div class="sidenav col-lg-3">
+                <input type="text" name="search" placeholder="Search by name" (change)="onChange($event)" />
+                <select class="form-control" (change)="onChange($event)">
+                 <option selected="Category dropdown">Category dropdown</option>
+                 <option *ngFor="let cat of (resultData | filterUnique)">{{cat.name}}</option>
+                </select>
+            <div class="radiofilter">
+                <input type="radio" name="criteria" value="lessthan">Less than 5000<br>
+                <input type="radio" name="criteria" value="greaterthan">Greater than 5000<br>
+                <input type="radio" name="criteria" value="all"> All
+            </div>
+            <button type="button" class="btn btn-info">
+                    <span class="glyphicon glyphicon-search"></span> Search
+            </button>
+        </div> 
+    <!-- Page content -->
+        <div class="main col-lg-8">
+                    <div *ngFor="let prod of resultData.products" class="card-structure">
+                        <div class="card bg-success text-white">
+                            <div class="card-body">
+                                Name- {{prod.name}}
+                            </div>
+                            <div class="card-body">
+                                Price:{{prod.price}}
+                            </div>
+                            <div class="card-body">
+                                Item left:{{prod.itemLeft}}
+                            </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>

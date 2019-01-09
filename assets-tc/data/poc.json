@@ -1,0 +1,76 @@
+{
+    "categories": [
+        {
+            "categoryName": "TV",
+            "categoryId": "001",
+            "products": [
+                {
+                    "name": "TV 1 Result item 01",
+                    "price": "2000",
+                    "itemLeft":"5"
+                },
+                {
+                    "name": "TV 2 Result item 02",
+                    "price": "1000"
+                },
+                {
+                    "name": "TV 3 Result item 02",
+                    "price": "100",
+                    "itemLeft":"150"
+                },
+                {
+                    "name": "TV 4 Result item 04",
+                    "price": "150",
+                    "itemLeft":"10"
+                },
+                {
+                    "name": "TV 5 Result item 05",
+                    "price": "5000",
+                    "itemLeft":"125"
+                },
+                {
+                    "name": "TV 6 Result item 06",
+                    "price": "1500",
+                    "itemLeft":"12"
+                }
+            ]
+        },
+
+        {
+            "categoryName": "Mobile",
+            "categoryId": "002",
+            "products": [
+                {
+                    "name": "Oppo 1 Result item 01",
+                    "price": "12000",
+                    "itemLeft":"5"
+                },
+                {
+                    "name": "Oppo 2 Result item 02",
+                    "price": "11000",
+                    "itemLeft":"5"
+                },
+                {
+                    "name": "Oppo 3 Result item 02",
+                    "price": "11100",
+                    "itemLeft":"150"
+                },
+                {
+                    "name": "Oppo 4 Result item 04",
+                    "price": "11150",
+                    "itemLeft":"10"
+                },
+                {
+                    "name": "Oppo 5 Result item 05",
+                    "price": "15000",
+                    "itemLeft":"125"
+                },
+                {
+                    "name": "Oppo 6 Result item 06",
+                    "price": "11500",
+                    "itemLeft":"12"
+                }
+            ]
+        }
+    ]
+}

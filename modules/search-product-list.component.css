@@ -1,0 +1,50 @@
+@import '~tc-styles/dist/scss/helpers/_colors.scss';
+.sidenav {
+
+}
+.main {
+    background-color: lightgray;
+}
+.header {
+    text-align: center;
+}
+.sidenav>input {
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+.col {
+    padding-left: 0;
+}
+.d-inline-block button {
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+.dropdown-menu {
+    width: 100%;
+    font-size: 14px;
+}
+.radiofilter {
+    margin: 20px 0 10px 0;
+}
+.radiofilter input {
+    margin-right: 7px;
+}
+.btn-info {
+    font-size: 16px;
+    border-radius: 5px;
+}
+.card-structure {
+    display: inline-block;
+    width: 31%;
+    margin: 10px 9px 10px 7px;
+}
+/* .card-body {
+    padding: 7px 3px 5px 12px;
+}
+.card {
+    margin: 10px 9px 10px 7px;
+    display: inline-block;
+    padding: 7px;
+    width: 31%;
+} */
